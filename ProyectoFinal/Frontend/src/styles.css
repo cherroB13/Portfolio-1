@@ -1,0 +1,61 @@
+.navBar {
+  height: 70px;
+}
+
+.logos img {
+  position: relative;
+  height: 150%;
+  margin-top: -3%;
+}
+
+.contact img {
+  border-radius: 50%;
+  position: relative;
+  height: 40px;
+  width: 40px;
+}
+
+.IconLogin img {
+  height: 40px;
+  position: relative;
+  margin-top: -1%;
+  border-radius: 20%;
+}
+
+.banner {
+  background: url(https://th.bing.com/th/id/R.978dad5275d744be2602527e8bfbb728?rik=JnL9%2fjpaoVuGFA&pid=ImgRaw&r=0);
+  background-size: cover;
+}
+
+.profile img {
+  width: 90%;
+  border-radius: 50%;
+  transform: translateY(50%);
+  position: relative;
+  float: left;
+}
+
+.educ1 img {
+  width: 100%;
+  position: relative;
+  float: left;
+}
+.educ1 {
+  margin-top: -3%;
+}
+.educ2 img {
+  width: 45%;
+  position: relative;
+  float: left;
+}
+.educ2 {
+  margin-top: 5%;
+}
+.educ3 img {
+  width: 100%;
+  position: relative;
+  float: left;
+}
+.educ3 {
+  margin-top: 10%;
+}

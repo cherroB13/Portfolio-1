@@ -1,0 +1,9 @@
+.banner {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background: url(../../../assets/fondo.banner.jpg);
+  background-size: cover;
+  position: relative;
+  height: 400px;
+}

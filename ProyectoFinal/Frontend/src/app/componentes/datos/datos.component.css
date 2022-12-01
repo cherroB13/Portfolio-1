@@ -1,0 +1,28 @@
+div {
+  background-color: lightgray;
+  text-align: center;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+  border-radius: 50%;
+  box-shadow: grey;
+  margin-top: -70%;
+  width: 100%;
+  float: left;
+  position: relative;
+}
+
+.descripcion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#nombre {
+  font-weight: bold;
+  margin-top: -20px;
+  justify-content: center;
+}

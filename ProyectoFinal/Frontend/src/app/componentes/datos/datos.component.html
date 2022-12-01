@@ -1,0 +1,19 @@
+<div class="row">
+  <div>
+    <button type="button" class="btn btn-dark" routerLink="/edit-datos/1" *ngIf="isLogged"><i class="fa-regular fa-pen-to-square"></i></button>
+  </div>
+  <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+    <img src="{{persona.imgprofile || '../../../../../assets/FOTO CV NUEVA.jpg" class="img-fluid" id="imgprofile" />
+  </div>
+  <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+    <h2 id="nombre"><b>{{persona.nombre}} {{persona.apellido}} </b></h2>
+    <h3 id="puesto">Full Stack Developer</h3>
+  </div>
+
+  <div class="descripcion col-xs-12 col-sm-7 col-md-7 col-lg-7 ">
+    <span>
+      <h3><b>Acerca de mí</b></h3>
+      <p>{{persona.descripcion}}</p>
+    </span>
+  </div>
+</div>

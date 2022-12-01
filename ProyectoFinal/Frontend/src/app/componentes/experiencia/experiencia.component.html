@@ -1,0 +1,29 @@
+<div class="row">
+    <h2>EXPERIENCIA LABORAL</h2>
+    <div class="col-lg-2">
+      <button type="button" class="btn btn-dark" routerLink="/nuevaexp" *ngIf="isLogged">Agregar experiencia</button>
+    </div>
+
+    <div class="col-lg-11">
+      <table class="table">
+        <tbody>
+          <tr><a href="https://opesa-ypf-rodeo.web.app"> <p></p></a></tr>
+          <tr *ngFor="let Experiencia of expe">
+            <td>
+              <h2>{{Experiencia.nombreE}}</h2>
+            </td>
+            <td>{{Experiencia.descripcionE}}</td>
+            <td *ngIf="isLogged">
+              <button class="btn btn-dark" routerLink="/editexp/{{Experiencia.id}}"><i
+                  class="fa-regular fa-pen-to-square"></i></button>
+            </td>
+            <td *ngIf="isLogged">
+              <button class="btn btn-dark" (click)="delete(Experiencia.id)"><i
+                  class="fa-solid fa-trash-can"></i></button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>

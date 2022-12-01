@@ -1,0 +1,43 @@
+<div class="row">
+  <div class="container">
+    <div class="logoAP col-xs-6 col-sm-2 col-md-2 col-lg-2">
+      <div>
+        <a href="https://argentinaprograma.inti.gob.ar/">
+          <img src="../../../assets/APLogo.png" alt="Argentina Programa"
+        /></a>
+      </div>
+    </div>
+
+    <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2"><p>#YoProgramo</p></div>
+
+    <div class="contact text-center col-xs-12 col-sm-6 col-md-6 col-lg-6">
+      <a href="https://api.whatsapp.com/send?phone=5493834028740">
+        <img
+          class="whatsapp border border-light"
+          src="../../../assets/wppLogo.jpg"
+      /></a>
+      <a href="https://m.facebook.com/?paipv=0&eav=AfYy8M8UA1yOb6586RcFUAxKOFCslw2MAiF_XLN81WyY8igSlRzmcTHRqtOvUABCILc&_rdr&tbua=1">
+        <img
+          class="face border border-light"
+          src="../../../assets/faceLogo.jpg"
+      /></a>
+      <a href="https://www.instagram.com/cecijere/"
+        ><img
+          class="instagram border border-light"
+          src="../../../assets/instLogo.jpg"
+      /></a>
+      <a href="https://github.com/Cecijere"
+        ><img
+          class="github border border-light"
+          src="../../../assets/githubLogo.jpg"
+      /></a>
+    </div>
+    <div class="login col-xs-12 col-sm-3 col-md-3 col-lg-3">
+      <div class="boton">
+        <button type="button" class="btn btn-dark" (click)="login()" *ngIf="!isLogged">INGRESO</button>
+        <button type="button" class="btn btn-dark" (click)="onLogOut()" *ngIf="isLogged">SALIR</button>
+      </div>
+    </div>
+  </div>
+</div>
+

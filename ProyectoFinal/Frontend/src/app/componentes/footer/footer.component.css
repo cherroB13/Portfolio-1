@@ -1,0 +1,14 @@
+.row {
+  margin-top: 20px;
+  background-color: rgb(16, 74, 150);
+}
+
+footer {
+  color: antiquewhite;
+  font-size: 20px;
+  text-align: center;
+}
+
+footer img {
+  width: 30px;
+}

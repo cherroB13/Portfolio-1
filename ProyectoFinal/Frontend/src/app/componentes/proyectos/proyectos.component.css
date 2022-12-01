@@ -1,0 +1,11 @@
+.row{
+  margin-top: 20px;
+  width: 100%;
+  padding: 20px;
+  background-color: lightgray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .button{
+    margin-top: 10px;
+  }
